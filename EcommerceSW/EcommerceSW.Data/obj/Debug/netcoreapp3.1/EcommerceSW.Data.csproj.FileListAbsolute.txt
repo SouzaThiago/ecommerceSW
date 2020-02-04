@@ -1,0 +1,13 @@
+C:\Users\Thiago\source\repos\EcommerceSW\EcommerceSW.Data\bin\Debug\netcoreapp3.1\EcommerceSW.Data.deps.json
+C:\Users\Thiago\source\repos\EcommerceSW\EcommerceSW.Data\bin\Debug\netcoreapp3.1\EcommerceSW.Data.dll
+C:\Users\Thiago\source\repos\EcommerceSW\EcommerceSW.Data\bin\Debug\netcoreapp3.1\EcommerceSW.Data.pdb
+C:\Users\Thiago\source\repos\EcommerceSW\EcommerceSW.Data\bin\Debug\netcoreapp3.1\EcommerceSW.Domain.dll
+C:\Users\Thiago\source\repos\EcommerceSW\EcommerceSW.Data\bin\Debug\netcoreapp3.1\EcommerceSW.Service.dll
+C:\Users\Thiago\source\repos\EcommerceSW\EcommerceSW.Data\bin\Debug\netcoreapp3.1\EcommerceSW.Domain.pdb
+C:\Users\Thiago\source\repos\EcommerceSW\EcommerceSW.Data\bin\Debug\netcoreapp3.1\EcommerceSW.Service.pdb
+C:\Users\Thiago\source\repos\EcommerceSW\EcommerceSW.Data\obj\Debug\netcoreapp3.1\EcommerceSW.Data.csprojAssemblyReference.cache
+C:\Users\Thiago\source\repos\EcommerceSW\EcommerceSW.Data\obj\Debug\netcoreapp3.1\EcommerceSW.Data.AssemblyInfoInputs.cache
+C:\Users\Thiago\source\repos\EcommerceSW\EcommerceSW.Data\obj\Debug\netcoreapp3.1\EcommerceSW.Data.AssemblyInfo.cs
+C:\Users\Thiago\source\repos\EcommerceSW\EcommerceSW.Data\obj\Debug\netcoreapp3.1\EcommerceSW.Data.csproj.CopyComplete
+C:\Users\Thiago\source\repos\EcommerceSW\EcommerceSW.Data\obj\Debug\netcoreapp3.1\EcommerceSW.Data.dll
+C:\Users\Thiago\source\repos\EcommerceSW\EcommerceSW.Data\obj\Debug\netcoreapp3.1\EcommerceSW.Data.pdb

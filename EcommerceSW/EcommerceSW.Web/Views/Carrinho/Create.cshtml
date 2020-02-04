@@ -1,0 +1,50 @@
+﻿@model EcommerceSW.Web.Model.ProdutoViewModel
+@{
+    ViewData["Title"] = "Create";
+}
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" />
+        <script src="https://code.jquery.com/jquery-3.3.0.js"
+                integrity="sha256-TFWSuDJt6kS+huV+vVlyV1jM3dwGdeNWqezhTxXB/X8="
+                crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+        <script>
+            $(function() {
+                $("#inserir").click(function () {
+                    toastr.options = {
+                        "timeout": 20000,
+                        "positionClass": "toast-top-center"
+                    };
+                    toastr.success("Produto adicionado ao carrinho com sucesso");
+                });
+            });
+        </script>
+    </head>
+<h1>Adicionar Item ao Carrinho</h1>
+@using (Html.BeginForm())
+{
+    <div class="form-group">
+        @Html.LabelFor(model => model.Nome, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.DropDownListFor(model => model.Nome, (List<SelectListItem>)ViewData["ListaProdutos"], new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.Nome, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Quantidade, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Quantidade, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Quantidade, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group" >
+        <div class="col-md-offset-2 col-md-10"></div>
+        <button type="submit" id="inserir" value="Adicionar ao Carrinho" name="inserir" class="btn-info">Adicionar ao carrinho </button>
+    </div>
+}
+
+<p>
+    @Html.ActionLink("Ver carrinho", "details")
+</p>

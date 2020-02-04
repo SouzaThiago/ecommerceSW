@@ -1,0 +1,8 @@
+C:\Users\Thiago\source\repos\EcommerceSW\EcommerceSW.Domain\bin\Debug\netcoreapp3.1\EcommerceSW.Domain.deps.json
+C:\Users\Thiago\source\repos\EcommerceSW\EcommerceSW.Domain\bin\Debug\netcoreapp3.1\EcommerceSW.Domain.dll
+C:\Users\Thiago\source\repos\EcommerceSW\EcommerceSW.Domain\bin\Debug\netcoreapp3.1\EcommerceSW.Domain.pdb
+C:\Users\Thiago\source\repos\EcommerceSW\EcommerceSW.Domain\obj\Debug\netcoreapp3.1\EcommerceSW.Domain.csprojAssemblyReference.cache
+C:\Users\Thiago\source\repos\EcommerceSW\EcommerceSW.Domain\obj\Debug\netcoreapp3.1\EcommerceSW.Domain.AssemblyInfoInputs.cache
+C:\Users\Thiago\source\repos\EcommerceSW\EcommerceSW.Domain\obj\Debug\netcoreapp3.1\EcommerceSW.Domain.AssemblyInfo.cs
+C:\Users\Thiago\source\repos\EcommerceSW\EcommerceSW.Domain\obj\Debug\netcoreapp3.1\EcommerceSW.Domain.dll
+C:\Users\Thiago\source\repos\EcommerceSW\EcommerceSW.Domain\obj\Debug\netcoreapp3.1\EcommerceSW.Domain.pdb

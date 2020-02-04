@@ -1,0 +1,52 @@
+﻿@model IEnumerable<EcommerceSW.Web.Model.CarrinhoViewModel>
+@{
+    ViewData["Title"] = "Details";
+    decimal valorTotal = 0;
+}
+
+<h1>Carrinho</h1>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.NomeProduto)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.QuantidadeProduto)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ValorTotal)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PromocaoProduto)
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        valorTotal += item.ValorTotal;
+
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NomeProduto)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.QuantidadeProduto)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ValorTotal)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PromocaoProduto)
+            </td>
+            <td>
+                @Html.ActionLink("Deletar", "Delete", new { id = item.Id })
+            </td>
+        </tr>
+    }
+
+</table>
+<p>
+    @Html.DisplayNameFor(model => model.ValorTotal)
+    @Html.Label("Valor", "R$ " + valorTotal.ToString())
+</p>
